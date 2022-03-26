@@ -1,0 +1,49 @@
+.fileStructure {
+  cursor: pointer;
+  width: 90%;
+  max-width: 1000px;
+  height: calc(var(--vh, 1vh) * 100 - 120px);
+  overflow: auto;
+  background-color: #131313;
+  padding: 10px;
+  border-radius: 10px;
+}
+.folder {
+  margin: 5px;
+}
+.file {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-left: 2px solid #3c3c3c;
+}
+.folder.close + div {
+  display: none;
+}
+
+.folder > i {
+  background: linear-gradient(to right, #f09819, #edde5d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.folder > i:nth-child(1) {
+  display: none;
+  margin-right: 5px;
+}
+.folder > i:nth-child(2) {
+  display: initial;
+  margin-right: 5px;
+}
+.folder.close > i:nth-child(1) {
+  display: initial;
+}
+.folder.close > i:nth-child(2) {
+  display: none;
+}
+
+.file > span {
+  white-space: nowrap;
+}

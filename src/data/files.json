@@ -1,0 +1,320 @@
+[
+  {
+    "name": "node_modules",
+    "type": "folder",
+    "items": [
+      {
+        "name": ".bin",
+        "type": "folder",
+        "items": [
+          {
+            "name": "jake.cmd",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "react",
+        "type": "folder",
+        "items": [
+          {
+            "name": "cjs",
+            "type": "folder",
+            "items": [
+              {
+                "name": "react-jsx-dev-runtime.development.js",
+                "type": "file"
+              },
+              {
+                "name": "react-jsx-dev-runtime.development.min.js",
+                "type": "file"
+              },
+              {
+                "name": "react-jsx-runtime.development.js",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "umd",
+            "type": "folder",
+            "items": [
+              {
+                "name": "react.development.js",
+                "type": "file"
+              },
+              {
+                "name": "react.production.min.js",
+                "type": "file"
+              },
+              {
+                "name": "react.profiling.min.js",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "build-info.json",
+            "type": "file"
+          },
+          {
+            "name": "index.js",
+            "type": "file"
+          },
+          {
+            "name": "jsx-dev-runtime.js",
+            "type": "file"
+          },
+          {
+            "name": "LICENSE",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "public",
+    "type": "folder",
+    "items": [
+      {
+        "name": "favicon.ico",
+        "type": "file"
+      },
+      {
+        "name": "index.html",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "type": "folder",
+    "items": [
+      {
+        "name": "components",
+        "type": "folder",
+        "items": [
+          {
+            "name": "FolderStructure.js",
+            "type": "file"
+          },
+          {
+            "name": "FolderStructure.css",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "data",
+        "type": "folder",
+        "items": [
+          {
+            "name": "data.json",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "nestedFolder",
+        "type": "folder",
+        "items": [
+          {
+            "name": "1stLevel",
+            "type": "folder",
+            "items": [
+              {
+                "name": "2ndLevel",
+                "type": "folder",
+                "items": [
+                  {
+                    "name": "3rdLevel",
+                    "type": "folder",
+                    "items": [
+                      {
+                        "name": "4thtLevel",
+                        "type": "folder",
+                        "items": [
+                          {
+                            "name": "5thtLevel",
+                            "type": "folder",
+                            "items": [
+                              {
+                                "name": "6thLevel",
+                                "type": "folder",
+                                "items": [
+                                  {
+                                    "name": "7thLevel",
+                                    "type": "folder",
+                                    "items": [
+                                      {
+                                        "name": "8thLevel",
+                                        "type": "folder",
+                                        "items": [
+                                          {
+                                            "name": "9thLevel",
+                                            "type": "folder",
+                                            "items": [
+                                              {
+                                                "name": "10thLevel",
+                                                "type": "folder",
+                                                "items": [
+                                                  {
+                                                    "name": "enough",
+                                                    "type": "folder",
+                                                    "items": [
+                                                      {
+                                                        "name": "bs-kr-bsdk.js",
+                                                        "type": "file"
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "name": "enough.js",
+                                                    "type": "file"
+                                                  },
+                                                  {
+                                                    "name": "enough.css",
+                                                    "type": "file"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "10thLevel.js",
+                                                "type": "file"
+                                              },
+                                              {
+                                                "name": "10thLevel.css",
+                                                "type": "file"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "9thLevel.js",
+                                            "type": "file"
+                                          },
+                                          {
+                                            "name": "9thLevel.css",
+                                            "type": "file"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "8thLevel.js",
+                                        "type": "file"
+                                      },
+                                      {
+                                        "name": "8thLevel.css",
+                                        "type": "file"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "7thLevel.js",
+                                    "type": "file"
+                                  },
+                                  {
+                                    "name": "7thLevel.css",
+                                    "type": "file"
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "6thLevel.js",
+                                "type": "file"
+                              },
+                              {
+                                "name": "6thLevel.css",
+                                "type": "file"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "5thtLevel.js",
+                            "type": "file"
+                          },
+                          {
+                            "name": "5thtLevel.css",
+                            "type": "file"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "4thLevel.js",
+                        "type": "file"
+                      },
+                      {
+                        "name": "4thLevel.css",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "3rdLevel.js",
+                    "type": "file"
+                  },
+                  {
+                    "name": "3rdLevel.css",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "2ndLevel.js",
+                "type": "file"
+              },
+              {
+                "name": "2ndLevel.css",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "1stLevel.js",
+            "type": "file"
+          },
+          {
+            "name": "1stLevel.css",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "App.css",
+        "type": "file"
+      },
+      {
+        "name": "App.js",
+        "type": "file"
+      },
+      {
+        "name": "index.css",
+        "type": "file"
+      },
+      {
+        "name": "index.js",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": ".gitignore",
+    "type": "file"
+  },
+  {
+    "name": "package.json",
+    "type": "file"
+  },
+  {
+    "name": "package-lock.json",
+    "type": "file"
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  }
+]
