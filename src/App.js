@@ -5,7 +5,6 @@ import FileStructure from "./components/FolderStructure/FolderStructure";
 function App() {
   useEffect(() => {
     function setVh() {
-      console.log("hi");
       let root = document.querySelector(":root");
       let vh = window.innerHeight * 0.01;
       root.style.setProperty("--vh", `${vh}px`);
@@ -13,10 +12,7 @@ function App() {
     setVh();
 
     window.addEventListener("resize", setVh);
-    return () => {
-      console.log("removed");
-      window.removeEventListener("resize", setVh);
-    };
+    return () => window.removeEventListener("resize", setVh);
   }, []);
   return (
     <div className="App">

@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./FolderStructure.css";
 import data from "../../data/files.json";
 
 function FileStructure() {
+  const fileStruct = useRef();
   function folderClick(e) {
     e.currentTarget.classList.toggle("close");
   }
+  useEffect(() => {
+    fileStruct.current.childNodes[0].classList.toggle("close");
+  }, []);
 
   function folderParsing(data) {
     let folderContent = [];
@@ -43,7 +47,7 @@ function FileStructure() {
         <div
           key={`${id}+a`}
           className={`leftShift=${arrCount}`}
-          style={{ paddingLeft: `${arrCount * 5}px` }}>
+          style={{ paddingLeft: `${arrCount * 8}px` }}>
           {FolderDiv(elem, arrCount + 1)}
         </div>
       ) : (
@@ -52,7 +56,11 @@ function FileStructure() {
     );
   }
 
-  return <div className="fileStructure">{FolderDiv(folderParsing(data))}</div>;
+  return (
+    <div ref={fileStruct} className="fileStructure">
+      {FolderDiv(folderParsing(data))}
+    </div>
+  );
 }
 
 export default FileStructure;
