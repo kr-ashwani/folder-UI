@@ -47,7 +47,7 @@ function FileStructure() {
         <div
           key={`${id}+a`}
           className={`leftShift=${arrCount}`}
-          style={{ paddingLeft: `${arrCount * 8}px` }}>
+          style={{ paddingLeft: `${15}px` }}>
           {FolderDiv(elem, arrCount + 1)}
         </div>
       ) : (
