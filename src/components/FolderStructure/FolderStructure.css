@@ -4,47 +4,38 @@
   max-width: 1000px;
   height: calc(var(--vh, 1vh) * 100 - 120px);
   overflow: auto;
-  background-color: #131313;
+  background-color: #121212;
   padding: 10px;
   border-radius: 10px;
   -webkit-tap-highlight-color: transparent;
 }
-.folder {
-  margin: 5px;
+.folderItems {
+  padding-left: 15px;
+}
+
+.folderName > span {
+  margin-left: 5px;
+}
+.folderName.close + .folderItems {
+  display: none;
 }
 .file {
   display: flex;
-  align-items: center;
   gap: 5px;
-  padding: 5px 10px;
-  border-left: 2px solid #3c3c3c;
+  border-left: 2px solid rgba(77, 76, 76, 0.929);
 }
-.folder.close + div {
+.file > img {
+  margin-left: 3px;
+}
+.fileStructure div {
+  margin: 7px 0;
+}
+.folderName.close > .fa-folder-open {
   display: none;
 }
-
-.folder > i {
-  background: linear-gradient(to right, #f09819, #edde5d);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.folder > i:nth-child(1) {
+.folderName > .fa-folder {
   display: none;
-  margin-right: 5px;
 }
-.folder > i:nth-child(2) {
+.folderName.close > .fa-folder {
   display: initial;
-  margin-right: 5px;
-}
-.folder.close > i:nth-child(1) {
-  display: initial;
-}
-.folder.close > i:nth-child(2) {
-  display: none;
-}
-
-.file > span {
-  white-space: nowrap;
 }
